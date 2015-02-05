@@ -19,6 +19,7 @@ gulp.task('html', function () {
 
 gulp.task('watch', function() {
     gulp.watch(['./app/index.html'], ['html']);
+    gulp.watch(['./app/css/styles.css'], ['html']);
     gulp.watch(['./bower.json'], ['main-bower']);
 });
 

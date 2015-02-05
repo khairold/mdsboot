@@ -1,0 +1,29 @@
+body {
+    background-color: #E2E2E2;
+}
+
+@media (min-width: 498px) {
+    .boxa {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .boxa {
+        width: 1600px;
+    }
+}
+
+.mainpaper {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px #888888;
+}
+
+.content {
+    background-color: #f1f1f1;
+    padding: 8px 40px 8px 40px;
+}
+.navbar-default {
+    background-color: transparent;
+    border: none;
+}

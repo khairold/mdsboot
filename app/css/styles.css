@@ -1,5 +1,7 @@
 body {
     background-color: #E2E2E2;
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
 }
 
 @media (min-width: 498px) {
@@ -8,22 +10,69 @@ body {
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1600px) {
     .boxa {
         width: 1600px;
     }
 }
 
+.boxa {
+    background-color: #0b97c4;
+}
+
+
+
 .mainpaper {
-    background-color: #ffffff;
+    background-color: #f1f1f1;
     box-shadow: 0 0 10px #888888;
 }
 
 .content {
-    background-color: #f1f1f1;
-    padding: 8px 40px 8px 40px;
+    width: 1426px;
+    min-width: 946px;
+
 }
 .navbar-default {
     background-color: transparent;
     border: none;
+}
+
+.navbar .boxa {
+    background-color: #080808;
+    background-color: transparent;
+    opacity:0.9;
+    height: 60px;
+}
+
+.navbar .boxa .content{
+    opacity:1.0;
+}
+
+.vcenter {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+.navbar-form .semit{
+    opacity: 0.9;
+}
+
+.navbar-form .semit:focus{
+    opacity: 1.0;
+    background-color: #ffffff;
+}
+
+.socialscene {
+    padding-top: 8px;
+    line-height: 20px;
+    height: 60px;
+    color: #888888;
+    font-size: 12px;
+    font-family: Helvetica,Arial,Verdana,sans-serif;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.9);
 }

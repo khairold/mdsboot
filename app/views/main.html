@@ -1,0 +1,17 @@
+<div class="carouselmine">
+    <div class="container boxa mainpaper">
+        <div class="row">
+            <carousel interval="myInterval">
+                <slide ng-repeat="slide in slides" active="slide.active">
+                    <img ng-src="{{slide.image}}" style="margin:auto;">
+                    <div class="carousel-caption">
+                        <span class="watchspan">Watch the Chicago Concert</span>
+                        <h1>Brian Setzer</h1>
+                        <h4>Back in Town</h4>
+                        <p>Concert featuring the living legend {{slide.text}} <br /> and the Mighty mighty Bosstones</p>
+                    </div>
+                </slide>
+            </carousel>
+        </div>
+    </div>
+</div>
